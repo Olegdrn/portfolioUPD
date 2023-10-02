@@ -1,5 +1,4 @@
 import { FunctionComponent } from "react";
-
 import { ISkill } from "../types";
 import { motion } from "framer-motion";
 const Bar: FunctionComponent<{ value: ISkill }> = ({
