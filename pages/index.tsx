@@ -25,8 +25,8 @@ const About = ({ }) => {
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold font-montserrat ">Education</h5>
           <div className="grid md:grid-cols-2 gap-2 ">
-            <div>
-              <h5 className="my-2 text-xl font-bold">
+            <div >
+              <h5 className="my-2 text-xl font-bold ">
                 Bauman Moscow State Technical University (2011-2017)
               </h5>
               <p className="font-semibold">

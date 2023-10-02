@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps, router }) {
         {/* //!sidebar */}
         <Sidebar />
       </div>
-      <div className="flex flex-col col-span-12 overflow-hidden bg-white rounded-2xl  dark:text-white lg:col-span-9 shadow-custom-light">
+      <div className="flex flex-col col-span-12 overflow-hidden bg-white rounded-2xl  lg:col-span-9 shadow-custom-light">
         {/* //!navbar */}
         <Navbar />
         {/* //!about */}
