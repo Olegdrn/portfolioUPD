@@ -111,7 +111,7 @@ export const projects: IProject[] = [
     id: 3,
     name: "Website layout",
     description: "Simple student static HTML/CSS responsive layout",
-    image_path: '/images/firstLay.jpg',
+    image_path: '/images/firstlay.jpg',
     deployed_url: "",
     github_url: "https://github.com/Olegdrn/HTML-CSS-first-student-project.git",
     category: ["HTML_CSS"],
