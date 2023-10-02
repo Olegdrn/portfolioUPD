@@ -1,1 +1,3 @@
-npm run dev
+npm i
+npm run build
+npm start
