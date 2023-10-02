@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps, router }) {
         {/* //!navbar */}
         <Navbar />
         {/* //!about */}
-        <AnimatePresence exitBeforeEnter>
+        <AnimatePresence >
           <Component {...pageProps} key={router.route} />
         </AnimatePresence>
       </div>

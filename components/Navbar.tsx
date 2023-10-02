@@ -9,7 +9,7 @@ const NavItem: FunctionComponent<{
    route: string
 }> = ({ active, setActive, name, route }) => {
    return active !== name ? (
-      <Link href={route}>
+      <Link legacyBehavior href={route} >
          <a>
             <span
                className='mx-2 cursor-pointer hover:border-b-4 hover:text-blue-500'
