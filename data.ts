@@ -78,7 +78,7 @@ export const tools: ISkill[] = [
 
 export const projects: IProject[] = [
   {
-    id: 2,
+    id: 0,
     name: "Internet shop",
     description: "Classic static HTML/CSS responsive layout with different pages",
     image_path: '/images/vue.jpg',
@@ -87,18 +87,18 @@ export const projects: IProject[] = [
     category: ["HTML_CSS"],
     key_techs: ["HTML/CSS", "SCSS", "flexbox", "grid"]
   },
-  {
+    {
     id: 1,
-    name: "Blogs application",
-    description: "App for creating blogs and sending POST, Delete methods",
-    image_path: '/images/blogs.jpg',
+    name: "React popap with Node.js server",
+    description: "Form based on react with node server data transfer between frontend and backend",
+    image_path: '/images/reactNode.jpg',
     deployed_url: "",
-    github_url: "https://github.com/Olegdrn/react/pull/4",
-    category: ["React", "JS"],
-    key_techs: ["React", "JS", "HTML/CSS", "SCSS", "JSON-server", "npm"]
+    github_url: "https://github.com/Olegdrn/reactNodeServer/tree/main",
+    category: ["NodeJS"],
+    key_techs: ["React", "JS", "NodeJS"]
   },
   {
-    id: 0,
+    id: 2,
     name: "Popap React",
     description: "Verification app build on React with JSON server",
     image_path: '/images/popap.jpg',
@@ -139,7 +139,7 @@ export const projects: IProject[] = [
     key_techs: ["Vue", "JS", "HTML/CSS", "SCSS"]
   },
   {
-    id: 7,
+    id: 6,
     name: "Popap native JS",
     description: "Verification app build on native JavaScript with LocalStorage",
     image_path: '/images/popap.jpg',
@@ -149,7 +149,7 @@ export const projects: IProject[] = [
     key_techs: ["JS", "HTML/CSS", "SCSS", "LocalStorage"]
   },
   {
-    id: 8,
+    id: 7,
     name: "Portfolio",
     description: "Portfolio build on NextJS, TypeScript and Tailwind CSS",
     image_path: '/images/portfolio.jpg',
@@ -159,13 +159,13 @@ export const projects: IProject[] = [
     key_techs: ["React", "TypeScript", "NextJS", "Tailwind CSS", "npm"]
   },
   {
-    id: 9,
-    name: "React popap with Node.js server",
-    description: "Form based on react with node server data transfer between frontend and backend",
-    image_path: '/images/reactNode.jpg',
+    id: 8,
+    name: "Blogs application",
+    description: "App for creating blogs and sending POST, Delete methods",
+    image_path: '/images/blogs.jpg',
     deployed_url: "",
-    github_url: "https://github.com/Olegdrn/reactNodeServer/tree/main",
-    category: ["NodeJS"],
-    key_techs: ["React", "JS", "NodeJS"]
+    github_url: "https://github.com/Olegdrn/react/pull/4",
+    category: ["React", "JS"],
+    key_techs: ["React", "JS", "HTML/CSS", "SCSS", "JSON-server", "npm"]
   }
 ];
