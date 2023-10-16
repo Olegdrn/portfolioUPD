@@ -149,13 +149,23 @@ export const projects: IProject[] = [
     key_techs: ["JS", "HTML/CSS", "SCSS", "LocalStorage"]
   },
   {
-    id: 6,
+    id: 8,
     name: "Portfolio",
     description: "Portfolio build on NextJS, TypeScript and Tailwind CSS",
     image_path: '/images/portfolio.jpg',
-    deployed_url: "",
-    github_url: "https://github.com/Olegdrn/jsSecondCourse/pull/8",
+    deployed_url: "https://portfolio-odr.vercel.app",
+    github_url: "https://github.com/Olegdrn/portfolioUPD",
     category: ["NextJS", "TypeScript", "Tailwind CSS", "React"],
     key_techs: ["React", "TypeScript", "NextJS", "Tailwind CSS", "npm"]
   },
+  {
+    id: 9,
+    name: "React popap with Node.js server",
+    description: "Form based on react with node server data transfer between frontend and backend",
+    image_path: '/images/reactNode.jpg',
+    deployed_url: "",
+    github_url: "https://github.com/Olegdrn/reactNodeServer/tree/main",
+    category: ["NodeJS"],
+    key_techs: ["React", "JS", "NodeJS"]
+  }
 ];
