@@ -27,4 +27,5 @@ export type Category =
   | "Tailwind CSS"
   | "NextJS"
   | "SCSS"
+  | "NodeJS"
   | "Vue";
