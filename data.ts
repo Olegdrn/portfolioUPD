@@ -89,7 +89,7 @@ export const projects: IProject[] = [
   },
     {
     id: 1,
-    name: "React popap with Node.js server",
+    name: "React useForm with Node.js server",
     description: "Form based on react with node server data transfer between frontend and backend",
     image_path: '/images/reactNode.jpg',
     deployed_url: "",
