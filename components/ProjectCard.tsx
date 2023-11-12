@@ -1,4 +1,4 @@
-"use client"
+ur"use client"
 import { FunctionComponent, useState } from "react";
 import { IProject } from "../types";
 import Image from "next/image";
@@ -76,7 +76,7 @@ const ProjectCard: FunctionComponent<{
                   href={deployed_url}
                   target="_blank"
                   className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-300 rounded-sm"
-                >) : </> }
+                >) : return ()}
                   <AiFillProject /> <span>Project</span>
                 </a>
               </motion.div>
