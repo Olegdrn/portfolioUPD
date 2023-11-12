@@ -82,7 +82,7 @@ export const projects: IProject[] = [
     name: "Internet shop",
     description: "Classic static HTML/CSS responsive layout with different pages",
     image_path: '/images/vue.jpg',
-    deployed_url: "",
+    deployed_url: "https://html-css-odr.vercel.app/index.html#",
     github_url: "https://github.com/Olegdrn/HTML_CSS_ODR/pull/8",
     category: ["HTML_CSS"],
     key_techs: ["HTML/CSS", "SCSS", "flexbox", "grid"]
@@ -112,7 +112,7 @@ export const projects: IProject[] = [
     name: "Website layout",
     description: "Simple student static HTML/CSS responsive layout",
     image_path: '/images/firstlay.jpg',
-    deployed_url: "",
+    deployed_url: "https://html-css-first-student-project.vercel.app/Contacts.html",
     github_url: "https://github.com/Olegdrn/HTML-CSS-first-student-project.git",
     category: ["HTML_CSS"],
     key_techs: ["HTML/CSS"],
@@ -143,7 +143,7 @@ export const projects: IProject[] = [
     name: "Popap native JS",
     description: "Verification app build on native JavaScript with LocalStorage",
     image_path: '/images/popap.jpg',
-    deployed_url: "",
+    deployed_url: "https://popap-vanilla-js.vercel.app",
     github_url: "https://github.com/Olegdrn/popap/pull/1",
     category: ["JS"],
     key_techs: ["JS", "HTML/CSS", "SCSS", "LocalStorage"]
