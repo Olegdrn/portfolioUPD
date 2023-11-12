@@ -87,18 +87,8 @@ export const projects: IProject[] = [
     category: ["HTML_CSS"],
     key_techs: ["HTML/CSS", "SCSS", "flexbox", "grid"]
   },
-    {
-    id: 1,
-    name: "React hook form with Node.js server",
-    description: "Form based on react with node server data transfer between frontend and backend",
-    image_path: '/images/reactNode.jpg',
-    deployed_url: "",
-    github_url: "https://github.com/Olegdrn/reactNodeServer/tree/main",
-    category: ["NodeJS"],
-    key_techs: ["React", "JS", "NodeJS"]
-  },
   {
-    id: 2,
+    id: 1,
     name: "Popap React",
     description: "Verification app build on React with JSON server",
     image_path: '/images/popap.jpg',
@@ -106,6 +96,16 @@ export const projects: IProject[] = [
     github_url: "https://github.com/Olegdrn/popap/pull/3",
     category: ["React"],
     key_techs: ["React", "JS", "HTML/CSS", "SCSS", "JSON-server", "LocalStorage", "npm"]
+  },
+    {
+    id: 2,
+    name: "Flight booking app",
+    description: "flight booking app with rendering flight list from mock-file, including sorting, filtration and react hook form",
+    image_path: '/images/flightBooking.jpg',
+    deployed_url: "",
+    github_url: "https://github.com/Olegdrn/flightBooking/pull/1",
+    category: ["React"],
+    key_techs: ["React", "JS", "HTML/CSS", "SCSS", "JSON-server", "npm", "React hook form"]
   },
   {
     id: 3,
@@ -117,19 +117,28 @@ export const projects: IProject[] = [
     category: ["HTML_CSS"],
     key_techs: ["HTML/CSS"],
   },
-  {
+      {
     id: 4,
-    name: "webPack",
-    description: "Simple webPack assembly video player prototype",
-    image_path: '/images/webpack.jpg',
+    name: "React hook form with Node.js server",
+    description: "Form based on react with node server data transfer between frontend and backend",
+    image_path: '/images/reactNode.jpg',
     deployed_url: "",
-    github_url: "https://github.com/Olegdrn/webPack/pull/4",
-    category: ["webPack", "JS"],
-    key_techs: ["webPack", "npm"],
+    github_url: "https://github.com/Olegdrn/reactNodeServer/tree/main",
+    category: ["NodeJS"],
+    key_techs: ["React", "JS", "NodeJS"]
   },
-
-  {
+    {
     id: 5,
+    name: "Portfolio",
+    description: "Portfolio build on NextJS, TypeScript and Tailwind CSS",
+    image_path: '/images/portfolio.jpg',
+    deployed_url: "https://portfolio-odr.vercel.app",
+    github_url: "https://github.com/Olegdrn/portfolioUPD",
+    category: ["NextJS", "TypeScript", "Tailwind CSS", "React"],
+    key_techs: ["React", "TypeScript", "NextJS", "Tailwind CSS", "npm"]
+  },
+  {
+    id: 6,
     name: "Catalog page based on Vue",
     description: "Classic catalog pages with search, menu and product card",
     image_path: '/images/shop.jpg',
@@ -139,7 +148,7 @@ export const projects: IProject[] = [
     key_techs: ["Vue", "JS", "HTML/CSS", "SCSS"]
   },
   {
-    id: 6,
+    id: 7,
     name: "Popap native JS",
     description: "Verification app build on native JavaScript with LocalStorage",
     image_path: '/images/popap.jpg',
@@ -147,16 +156,6 @@ export const projects: IProject[] = [
     github_url: "https://github.com/Olegdrn/popap/pull/1",
     category: ["JS"],
     key_techs: ["JS", "HTML/CSS", "SCSS", "LocalStorage"]
-  },
-  {
-    id: 7,
-    name: "Portfolio",
-    description: "Portfolio build on NextJS, TypeScript and Tailwind CSS",
-    image_path: '/images/portfolio.jpg',
-    deployed_url: "https://portfolio-odr.vercel.app",
-    github_url: "https://github.com/Olegdrn/portfolioUPD",
-    category: ["NextJS", "TypeScript", "Tailwind CSS", "React"],
-    key_techs: ["React", "TypeScript", "NextJS", "Tailwind CSS", "npm"]
   },
   {
     id: 8,
@@ -167,5 +166,15 @@ export const projects: IProject[] = [
     github_url: "https://github.com/Olegdrn/react/pull/4",
     category: ["React", "JS"],
     key_techs: ["React", "JS", "HTML/CSS", "SCSS", "JSON-server", "npm"]
+  },
+    {
+    id: 9,
+    name: "webPack",
+    description: "Simple webPack assembly video player prototype",
+    image_path: '/images/webpack.jpg',
+    deployed_url: "",
+    github_url: "https://github.com/Olegdrn/webPack/pull/4",
+    category: ["webPack", "JS"],
+    key_techs: ["webPack", "npm"],
   }
 ];
