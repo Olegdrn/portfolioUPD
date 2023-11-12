@@ -71,12 +71,13 @@ const ProjectCard: FunctionComponent<{
                 >
                   <AiFillGithub /> <span>Github</span>
                </a>
-                 <a
+                <a
                   href={deployed_url}
+                  target="_blank"
                   className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-300 rounded-sm"
                 > 
                   <AiFillProject /> <span>Project</span>
-                </a> 
+                </a>
               </motion.div>
             </motion.div>
             <motion.div variants={stagger} initial="initial" animate="animate">
