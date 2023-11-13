@@ -71,7 +71,7 @@ const ProjectCard: FunctionComponent<{
                 >
                   <AiFillGithub /> <span>Github</span>
                </a>
-                {deployed_url? 
+                {deployed_url ? 
                 <a
                   href={deployed_url}
                   target="_blank"
