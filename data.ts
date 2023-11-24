@@ -97,8 +97,18 @@ export const projects: IProject[] = [
     category: ["React"],
     key_techs: ["React", "JS", "HTML/CSS", "SCSS", "JSON-server", "LocalStorage", "npm"]
   },
-    {
+      {
     id: 2,
+    name: "Personal account with event list",
+    description: "TypeScript responsive project with PrimeReact. The events are generated randomly with interval 5 sec from Event type, imcluding paginator and posibility to select an event with Space KeyDown and cursor",
+    image_path: '/images/EventList.jpg',
+    deployed_url: "https://event-log-olive.vercel.app",
+    github_url: "https://github.com/Olegdrn/EventLog",
+    category: ["React", "TypeScript"],
+    key_techs: ["React", "TypeScript", "HTML/CSS", "PrimeReact"]
+  },
+    {
+    id: 3,
     name: "Flight booking app",
     description: "flight booking app with rendering flight list from mock-file, including sorting, filtration and react hook form",
     image_path: '/images/flightBooking.jpg',
@@ -108,7 +118,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "JS", "HTML/CSS", "SCSS", "JSON-server", "npm", "React hook form"]
   },
   {
-    id: 3,
+    id: 4,
     name: "Website layout",
     description: "Simple student static HTML/CSS responsive layout",
     image_path: '/images/firstlay.jpg',
@@ -118,7 +128,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML/CSS"],
   },
       {
-    id: 4,
+    id: 5,
     name: "React hook form with Node.js server",
     description: "Form based on react with node server data transfer between frontend and backend",
     image_path: '/images/reactNode.jpg',
@@ -128,7 +138,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "JS", "NodeJS"]
   },
     {
-    id: 5,
+    id: 6,
     name: "Portfolio",
     description: "Portfolio build on NextJS, TypeScript and Tailwind CSS",
     image_path: '/images/portfolio.jpg',
@@ -138,7 +148,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "TypeScript", "NextJS", "Tailwind CSS", "npm"]
   },
   {
-    id: 6,
+    id: 7,
     name: "Catalog page based on Vue",
     description: "Classic catalog pages with search, menu and product card",
     image_path: '/images/shop.jpg',
@@ -148,7 +158,7 @@ export const projects: IProject[] = [
     key_techs: ["Vue", "JS", "HTML/CSS", "SCSS"]
   },
   {
-    id: 7,
+    id: 8,
     name: "Popap native JS",
     description: "Verification app build on native JavaScript with LocalStorage",
     image_path: '/images/popap.jpg',
@@ -158,7 +168,7 @@ export const projects: IProject[] = [
     key_techs: ["JS", "HTML/CSS", "SCSS", "LocalStorage"]
   },
   {
-    id: 8,
+    id: 9,
     name: "Blogs application",
     description: "App for creating blogs and sending POST, Delete methods",
     image_path: '/images/blogs.jpg',
@@ -168,7 +178,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "JS", "HTML/CSS", "SCSS", "JSON-server", "npm"]
   },
     {
-    id: 9,
+    id: 10,
     name: "webPack",
     description: "Simple webPack assembly video player prototype",
     image_path: '/images/webpack.jpg',
