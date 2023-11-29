@@ -127,8 +127,18 @@ export const projects: IProject[] = [
     category: ["HTML_CSS"],
     key_techs: ["HTML/CSS"],
   },
-      {
+        {
     id: 5,
+    name: "Hangman game",
+    description: "Simple responsive React TypeScript app",
+    image_path: '/images/hangman.jpg',
+    deployed_url: "https://type-script-game.vercel.app",
+    github_url: "https://github.com/Olegdrn/typeScriptGame",
+    category: ["TypeScript", "React"],
+    key_techs: ["React", "JS", "TypeScript"]
+  },
+      {
+    id: 6,
     name: "React hook form with Node.js server",
     description: "Form based on react with node server data transfer between frontend and backend",
     image_path: '/images/reactNode.jpg',
@@ -138,7 +148,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "JS", "NodeJS"]
   },
     {
-    id: 6,
+    id: 7,
     name: "Portfolio",
     description: "Portfolio build on NextJS, TypeScript and Tailwind CSS",
     image_path: '/images/portfolio.jpg',
@@ -148,7 +158,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "TypeScript", "NextJS", "Tailwind CSS", "npm"]
   },
   {
-    id: 7,
+    id: 8,
     name: "Catalog page based on Vue",
     description: "Classic catalog pages with search, menu and product card",
     image_path: '/images/shop.jpg',
@@ -158,7 +168,7 @@ export const projects: IProject[] = [
     key_techs: ["Vue", "JS", "HTML/CSS", "SCSS"]
   },
   {
-    id: 8,
+    id: 9,
     name: "Popap native JS",
     description: "Verification app build on native JavaScript with LocalStorage",
     image_path: '/images/popap.jpg',
@@ -168,7 +178,7 @@ export const projects: IProject[] = [
     key_techs: ["JS", "HTML/CSS", "SCSS", "LocalStorage"]
   },
   {
-    id: 9,
+    id: 10,
     name: "Blogs application",
     description: "App for creating blogs and sending POST, Delete methods",
     image_path: '/images/blogs.jpg',
@@ -178,7 +188,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "JS", "HTML/CSS", "SCSS", "JSON-server", "npm"]
   },
     {
-    id: 10,
+    id: 11,
     name: "webPack",
     description: "Simple webPack assembly video player prototype",
     image_path: '/images/webpack.jpg',
