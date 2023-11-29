@@ -27,7 +27,7 @@ const ProjectCard: FunctionComponent<{
 }) => {
     return (
       <>
-        <div className="max-w-lg">
+        <div className="max-w-lg  fixed top-0 left-0 ">
           <Image
             width="600"
             height="400"
