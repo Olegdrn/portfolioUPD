@@ -27,7 +27,7 @@ const ProjectCard: FunctionComponent<{
 }) => {
     return (
       <>
-        <div className="max-w-lg  fixed top-0 left-0 ">
+        <div className="max-w-lg ">
           <Image
             width="600"
             height="400"
@@ -42,7 +42,7 @@ const ProjectCard: FunctionComponent<{
           <p className="my-2 text-center font-bold">{name}</p>
         </div>
         {showDetail === id && (
-          <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 S md:grid-cols-2 gap-x-12 ">
+          <div className="fixed top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 S md:grid-cols-2 gap-x-12 ">
             <motion.div variants={stagger} initial="initial" animate="animate">
               <motion.div
                 className="border-4 border-gray-100 "
