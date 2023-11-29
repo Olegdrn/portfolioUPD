@@ -42,7 +42,7 @@ const ProjectCard: FunctionComponent<{
           <p className="my-2 text-center font-bold">{name}</p>
         </div>
         {showDetail === id && (
-          <div className="absolute top-20% left-20% z-10 grid w-50% h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 S md:grid-cols-2 gap-x-12 ">
+          <div className="fixed top-5 left-10 z-10 grid w-50% h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 S md:grid-cols-2 gap-x-12 ">
             <motion.div variants={stagger} initial="initial" animate="animate">
               <motion.div
                 className="border-4 border-gray-100 "
