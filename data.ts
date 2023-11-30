@@ -100,7 +100,7 @@ export const projects: IProject[] = [
       {
     id: 2,
     name: "Personal account with event list",
-    description: "TypeScript responsive project with PrimeReact. The events are generated randomly with interval 5 sec from Event type, imcluding paginator and posibility to select an event with Space KeyDown and cursor",
+    description: "TypeScript responsive project with PrimeReact. The events are generated randomly with interval 5 sec from Event type, including paginator and posibility to select an event with Space KeyDown and cursor",
     image_path: '/images/EventList.jpg',
     deployed_url: "https://event-log-olive.vercel.app",
     github_url: "https://github.com/Olegdrn/EventLog",
