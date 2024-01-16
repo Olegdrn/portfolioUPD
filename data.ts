@@ -18,7 +18,7 @@ export const languages: ISkill[] = [
   },
   {
     name: 'TypeScript',
-    level: '50%',
+    level: '60%',
     Icon: BsCircleFill
   },
   {
@@ -80,12 +80,12 @@ export const projects: IProject[] = [
   {
     id: 0,
     name: "Internet shop",
-    description: "Classic static HTML/CSS responsive layout with different pages",
+    description: "Classic enternet shop based on React, TypeScript, Redux and HTML/CSS responsive layout with different pages",
     image_path: '/images/vue.jpg',
-    deployed_url: "https://html-css-odr.vercel.app/index.html#",
-    github_url: "https://github.com/Olegdrn/HTML_CSS_ODR/pull/8",
-    category: ["HTML_CSS"],
-    key_techs: ["HTML/CSS", "SCSS", "flexbox", "grid"]
+    deployed_url: "https://enternetshop.vercel.app",
+    github_url: "https://github.com/Olegdrn/enternetshop",
+    category: ["React", "TypeScript"],
+    key_techs: ["React", "TypeScript", "Redux Toolkit", "React Router", "Create React App", "HTML/CSS", "SCSS", "flexbox", "grid"]
   },
   {
     id: 1,
