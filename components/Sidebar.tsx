@@ -26,7 +26,7 @@ const Sidebar = () => {
         </p>
         {/* Resume */}
         <a
-          href="/images/CV.pdf"
+          href="/images/DranovOlegRus.pdf"
           download="Oleg Dranov CV.pdf"
           className="flex items-center justify-center px-2 py-1 my-2 bg-slate rounded-full cursor-pointer "
         >
