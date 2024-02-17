@@ -150,7 +150,7 @@ export const projects: IProject[] = [
     {
     id: 7,
     name: "Super Data Picker",
-    description: Date picker that supports relative and absolute dates based on React TypeScript Redux Toolkit",
+    description: "Date picker that supports relative and absolute dates based on React, TypeScript, Redux Toolkit",
     image_path: '/images/datapicker.jpg',
     deployed_url: "https://data-picker-nine.vercel.app",
     github_url: "https://github.com/Olegdrn/dataPicker",
