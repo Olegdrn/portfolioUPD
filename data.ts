@@ -149,13 +149,13 @@ export const projects: IProject[] = [
   },
     {
     id: 7,
-    name: "Portfolio",
-    description: "Portfolio build on NextJS, TypeScript and Tailwind CSS",
-    image_path: '/images/portfolio.jpg',
-    deployed_url: "https://portfolio-odr.vercel.app",
-    github_url: "https://github.com/Olegdrn/portfolioUPD",
-    category: ["NextJS", "TypeScript", "Tailwind CSS", "React"],
-    key_techs: ["React", "TypeScript", "NextJS", "Tailwind CSS", "npm"]
+    name: "Super Data Picker",
+    description: Date picker that supports relative and absolute dates based on React, TypeScript and Redux Toolkit",
+    image_path: '/images/datapicker.jpg',
+    deployed_url: "https://data-picker-nine.vercel.app",
+    github_url: "https://github.com/Olegdrn/dataPicker",
+    category: ["React", "TypeScript"], 
+    key_techs: ["React", "TypeScript", "Redux Toolkit", "SCSS", "React hook form", "flexbox", "grid",]
   },
   {
     id: 8,
@@ -177,24 +177,14 @@ export const projects: IProject[] = [
     category: ["JS"],
     key_techs: ["JS", "HTML/CSS", "SCSS", "LocalStorage"]
   },
-  {
-    id: 10,
-    name: "Blogs application",
-    description: "App for creating blogs and sending POST, Delete methods",
-    image_path: '/images/blogs.jpg',
-    deployed_url: "",
-    github_url: "https://github.com/Olegdrn/react/pull/4",
-    category: ["React", "JS"],
-    key_techs: ["React", "JS", "HTML/CSS", "SCSS", "JSON-server", "npm"]
-  },
     {
     id: 11,
-    name: "webPack",
-    description: "Simple webPack assembly video player prototype",
-    image_path: '/images/webpack.jpg',
-    deployed_url: "",
-    github_url: "https://github.com/Olegdrn/webPack/pull/4",
-    category: ["webPack", "JS"],
-    key_techs: ["webPack", "npm"],
+    name: "Portfolio",
+    description: "Portfolio build on NextJS, TypeScript and Tailwind CSS",
+    image_path: '/images/portfolio.jpg',
+    deployed_url: "https://portfolio-odr.vercel.app",
+    github_url: "https://github.com/Olegdrn/portfolioUPD",
+    category: ["NextJS", "TypeScript", "Tailwind CSS"],
+    key_techs: ["React", "TypeScript", "NextJS", "Tailwind CSS", "npm"]
   }
 ];
