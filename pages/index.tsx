@@ -24,9 +24,9 @@ const About = ({ }) => {
       <div>
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold font-montserrat ">Education</h5>
-          <div className="grid text-sm md:grid-cols-2 gap-2 text-xl ">
+          <div className="grid text-base md:grid-cols-2 gap-2 text-xl ">
             <div >
-              <h5 className="my-2 text-sm font-bold md:text-xl">
+              <h5 className="my-2 text-lg font-bold md:text-xl">
                 Bauman Moscow State Technical University (2011-2017)
               </h5>
               <p className="font-semibold">
@@ -51,13 +51,13 @@ const About = ({ }) => {
                 Fullstack JavaScript
               </p>
               <div className="flex justify-around w-9/12 mx-auto my-5 text-slate-600 md:w-full ">
-                <FaHtml5 className="w-15 h-15 md:w-20 h-20" />
-                <SiJavascript className="w-15 h-15 md:w-20 h-20" />
-                <SiReact className="w-15 h-15 md:w-20 h-20" />
-                <SiTypescript className="w-15 h-15 md:w-20 h-20" />
-                <FaNode className="w-15 h-15 md:w-20 h-20" />
-                < SiWebpack className="w-15 h-15 md:w-20 h-20" />
-                < SiTailwindcss className="w-15 h-15 md:w-20 h-20" />
+                <FaHtml5 className="w-18 h-18 md:w-20 h-20" />
+                <SiJavascript className="w-18 h-18 md:w-20 h-20" />
+                <SiReact className="w-18 h-18 md:w-20 h-20" />
+                <SiTypescript className="w-18 h-18 md:w-20 h-20" />
+                <FaNode className="w-18 h-18 md:w-20 h-20" />
+                < SiWebpack className="w-18 h-18 md:w-20 h-20" />
+                < SiTailwindcss className="w-18 h-18 md:w-20 h-20" />
               </div>
             </div>
           </div>
