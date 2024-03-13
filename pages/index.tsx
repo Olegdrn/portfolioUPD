@@ -51,13 +51,13 @@ const About = ({ }) => {
                 Fullstack JavaScript
               </p>
               <div className="flex justify-around w-9/12 mx-auto my-5 text-slate-600 md:w-full ">
-                <FaHtml5 className="w-18 h-18 md:w-20 h-20" />
-                <SiJavascript className="w-18 h-18 md:w-20 h-20" />
-                <SiReact className="w-18 h-18 md:w-20 h-20" />
-                <SiTypescript className="w-18 h-18 md:w-20 h-20" />
-                <FaNode className="w-18 h-18 md:w-20 h-20" />
-                < SiWebpack className="w-18 h-18 md:w-20 h-20" />
-                < SiTailwindcss className="w-18 h-18 md:w-20 h-20" />
+                <FaHtml5 className="w-19 h-19 md:w-20 h-20" />
+                <SiJavascript className="w-19 h-19 md:w-20 h-20" />
+                <SiReact className="w-19 h-19 md:w-20 h-20" />
+                <SiTypescript className="w-19 h-19 md:w-20 h-20" />
+                <FaNode className="w-19 h-19 md:w-20 h-20" />
+                < SiWebpack className="w-19 h-19 md:w-20 h-20" />
+                < SiTailwindcss className="w-19 h-19 md:w-20 h-20" />
               </div>
             </div>
           </div>
